@@ -11,8 +11,6 @@ from netdev.vendors import MikrotikRouterOS
 from netdev.vendors import Terminal
 from netdev.vendors import UbiquityEdgeSwitch
 
-# @formatter:off
-# The keys of this dictionary are the supported device_types
 CLASS_MAPPER = {
     "arista_eos": AristaEOS,
     "aruba_aos_6": ArubaAOS6,
@@ -30,8 +28,6 @@ CLASS_MAPPER = {
     "ubiquity_edge": UbiquityEdgeSwitch,
     "terminal": Terminal,
 }
-
-# @formatter:on
 
 platforms = list(CLASS_MAPPER.keys())
 platforms.sort()

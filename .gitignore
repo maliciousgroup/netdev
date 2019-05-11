@@ -11,7 +11,7 @@ dist/
 poetry.lock
 
 # Unit tests
-tests/*.log
+*.log
 *.yaml
 
 # Docs

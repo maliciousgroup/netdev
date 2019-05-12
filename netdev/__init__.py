@@ -5,10 +5,4 @@ from netdev.logger import logger
 
 __version__ = pkg_resources.get_distribution("netdev").version
 
-__all__ = (
-    "create",
-    "platforms",
-    "logger",
-    "vendors",
-    "__version__"
-)
+__all__ = ("create", "platforms", "logger", "vendors", "__version__")

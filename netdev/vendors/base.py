@@ -9,7 +9,7 @@ import re
 
 import asyncssh
 
-from netdev.exceptions import TimeoutError, DisconnectError
+from netdev.exceptions import DisconnectError, TimeoutError
 from netdev.logger import logger
 
 

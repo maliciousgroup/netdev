@@ -1,7 +1,7 @@
 from netdev.vendors.arista import AristaEOS
 from netdev.vendors.aruba import ArubaAOS8, ArubaAOS6
 from netdev.vendors.base import BaseDevice
-from netdev.vendors.cisco import CiscoNXOS, CiscoIOSXR, CiscoASA, CiscoIOS
+from netdev.vendors.cisco import CiscoNXOS, CiscoIOSXR, CiscoASA, CiscoIOS, CiscoTCL
 from netdev.vendors.comware_like import ComwareLikeDevice
 from netdev.vendors.fujitsu import FujitsuSwitch
 from netdev.vendors.hp import HPComware, HPComwareLimited
@@ -16,6 +16,7 @@ from netdev.vendors.infotecs import HW1000
 __all__ = (
     "CiscoASA",
     "CiscoIOS",
+    "CiscoTCL",
     "CiscoIOSXR",
     "CiscoNXOS",
     "HPComware",
